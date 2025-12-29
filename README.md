@@ -1,82 +1,157 @@
-# Vishwajeet - Personal Portfolio Website
+# Vishwajeet SRK – Personal Portfolio Website 🌐
 
-A modern, interactive, and fully responsive personal portfolio website showcasing the professional journey, skills, and projects of Vishwajeet S. R. K., a data-driven professional and full-stack web development enthusiast from Bengaluru.
+A modern, interactive, and fully responsive **personal portfolio website** showcasing my skills, projects, and professional journey in **Full-Stack Web Development, Data Analytics, and AI-Driven Automation**.
 
 ---
 
-## 📺 Project Walkthrough
-Check out the interactive features, animations, and responsive design in action:
+## 🎥 Live Portfolio Preview (Auto-Play)
 
-https://github.com/vishwajeetsrk/portfolio/assets/media/portfolio-demo.mp4
+<p align="center">
+  <a href="./video.mp4">
+    <img src="./allgif.gif" width="900" alt="Portfolio Live Preview">
+  </a>
+</p>
+
+> ▶️ **GIF auto-plays** on GitHub  
+> 🎬 **Click the preview** to watch the full video (`video.mp4`)
 
 ---
 
 ## 🌟 Overview
 
-This portfolio website features a sleek, professional design with engaging animations, smooth scrolling, and interactive elements that highlight expertise in:
-- **Data Analytics & Management**
-- **AI-Driven Automation**
-- **Full-Stack Web Development**
-- **Creative Multimedia & Design**
+This portfolio is designed with a **clean UI, smooth animations, and responsive layout** to professionally present my profile to recruiters and collaborators.
+
+### 🔍 Focus Areas
+- Full-Stack Web Development  
+- Data Analytics & Management  
+- AI-Powered Automation  
+- Creative UI & Multimedia Design  
 
 ---
 
-## ✨ Features
+## 🏠 Home Section
 
-### 🎨 Design & User Experience
-- **Modern, Minimalistic Layout**: Clean design with professional aesthetics.
-- **Dark/Light Mode Toggle**: User preference-based theme switching with localStorage persistence.
-- **Smooth Scrolling**: Seamless navigation between sections.
-- **Interactive Animations**: Scroll-triggered animations and hover effects using Particles.js.
+<p align="center">
+  <img src="./home.png" width="850" alt="Home Section">
+</p>
 
-### 📁 Portfolio Sections
+- Strong introduction and personal branding
+- Clear call-to-action buttons
+- Smooth scrolling navigation
 
-#### 1. Hero Section
-- Full-screen introduction with a professional tagline and call-to-action buttons.
-- Animated scroll indicator and integrated social media links.
+---
 
-#### 2. About Me
-- Professional summary with key highlights.
-- **Interactive Statistics**: Real-time counters for records processed (1000+) and years of experience.
-- **Visual Verification**: 
-  ![Vishwajeet Profile](assets/media/profile-verified.png)
+## 👤 About Me
 
-#### 3. Technical Skills
-Categorized skill display with interactive progress bars:
-- **Web Dev**: HTML5, CSS3, JavaScript, MySQL.
-- **Data**: Python, Excel, Salesforce, Data Visualization.
-- **AI**: ChatGPT API, Python Automation, Prompt Engineering.
+<p align="center">
+  <img src="./about.png" width="850" alt="About Me Section">
+</p>
 
-#### 4. Featured Projects
-Includes my latest work in AI and Data automation:
-- **AI-Powered Instagram Caption Generator**: 
-  Integrated directly into an SMM panel using Gemini API and Replit backend.
-  ![SMM Panel Tool](assets/media/smm-panel-preview.png)
-- **Data Analytics Dashboard**: Python-based visualization for complex datasets.
-- **Multimedia Campaigns**: Creative design for social media growth.
+- Passionate web developer and data-driven professional
+- Interest in AI automation and real-world problem solving
+- Clean visual layout with profile image
+
+<p align="center">
+  <img src="./pro2%20bg%20remove.png" width="250" alt="Profile Image">
+</p>
+
+---
+
+## 🎓 Education & Certifications
+
+<p align="center">
+  <img src="./Education%20&%20Certifications.png" width="850" alt="Education and Certifications">
+</p>
+
+- Bachelor of Computer Applications (BCA)
+- Technical and professional certifications
+- Continuous learning mindset
+
+---
+
+## 🛠️ Skills
+
+<p align="center">
+  <img src="./skill.png" width="850" alt="Skills Section">
+</p>
+
+### 💡 Technical Skill Areas
+- **Web Development**: HTML5, CSS3, JavaScript  
+- **Data & Tools**: Python, Excel, Salesforce  
+- **AI & Automation**: ChatGPT API, Prompt Engineering  
+
+---
+
+## 💼 Work Experience
+
+<p align="center">
+  <img src="./Work%20Experience.png" width="850" alt="Work Experience">
+</p>
+
+- Hands-on experience in data handling and automation
+- Real-world project exposure
+- Professional workflow practices
+
+---
+
+## 🚀 Featured Projects
+
+<p align="center">
+  <img src="./Featured%20Projects.png" width="850" alt="Featured Projects">
+</p>
+
+### 🔹 Highlights
+- **AI Instagram Caption Generator**
+  - AI-powered caption creation
+  - Integrated with SMM workflow
+- **Data Analytics Dashboard**
+  - Python-based data visualization
+- **Creative Multimedia Projects**
+  - UI & social media design solutions
+
+---
+
+## 📞 Contact
+
+<p align="center">
+  <img src="./Contact%20.png" width="850" alt="Contact Section">
+</p>
+
+- Easy contact access
+- Professional social links
+- Clean call-to-action design
 
 ---
 
 ## 🛠️ Technologies Used
 
-| Category | Tools/Technologies |
-| :--- | :--- |
-| **Frontend** | HTML5, CSS3, JavaScript (ES6+) |
-| **Libraries** | Particles.js, Font Awesome, Google Fonts |
-| **Data/AI** | Python, Google Gemini API, Salesforce |
-| **Development** | Replit, GitHub, VS Code |
+| Category | Tools & Technologies |
+|--------|---------------------|
+| Frontend | HTML5, CSS3, JavaScript |
+| Styling | Custom CSS, Google Fonts |
+| Scripts | JavaScript (ES6) |
+| AI & Data | Python, AI APIs |
+| Tools | GitHub, VS Code |
 
 ---
 
 ## 📁 Project Structure
 
 ```text
-portfolio/
-├── index.html              # Main HTML structure
-├── css/
-│   └── style.css           # Custom styling & Dark/Light mode
-├── js/
-│   └── main.js             # Interactions & Scroll animations
-├── assets/
-│   └── media/              # Screenshots and Demo videos
-└── README.md               # Project documentation
+Vishwajeetsrk/
+├── index.html
+├── style.css
+├── main.js
+├── README.md
+├── QUICKSTART.md
+├── CUSTOMIZATION.md
+├── video.mp4
+├── allgif.gif
+├── pro2 bg remove.png
+├── home.png
+├── about.png
+├── skill.png
+├── Work Experience.png
+├── Education & Certifications.png
+├── Featured Projects.png
+└── Contact .png
