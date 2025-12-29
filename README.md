@@ -2,110 +2,81 @@
 
 A modern, interactive, and fully responsive personal portfolio website showcasing the professional journey, skills, and projects of Vishwajeet S. R. K., a data-driven professional and full-stack web development enthusiast from Bengaluru.
 
-![Portfolio Hero Preview](assets/screenshots/hero-preview.png)
+---
+
+## 📺 Project Walkthrough
+Check out the interactive features, animations, and responsive design in action:
+
+https://github.com/vishwajeetsrk/portfolio/assets/media/portfolio-demo.mp4
+
+---
 
 ## 🌟 Overview
 
 This portfolio website features a sleek, professional design with engaging animations, smooth scrolling, and interactive elements that highlight expertise in:
-- Data Analytics & Management
-- AI-Driven Automation
-- Full-Stack Web Development
-- Creative Multimedia & Design
+- **Data Analytics & Management**
+- **AI-Driven Automation**
+- **Full-Stack Web Development**
+- **Creative Multimedia & Design**
+
+---
 
 ## ✨ Features
 
-### Design & User Experience
-- **Modern, Minimalistic Layout**: Clean design with professional aesthetics
-- **Dark/Light Mode Toggle**: User preference-based theme switching with localStorage persistence
-- **Smooth Scrolling**: Seamless navigation between sections
-- **Responsive Design**: Fully optimized for desktop, tablet, and mobile devices
-- **Interactive Animations**: Scroll-triggered animations and hover effects
-- **Particle.js Background**: Animated particle system in the hero section
+### 🎨 Design & User Experience
+- **Modern, Minimalistic Layout**: Clean design with professional aesthetics.
+- **Dark/Light Mode Toggle**: User preference-based theme switching with localStorage persistence.
+- **Smooth Scrolling**: Seamless navigation between sections.
+- **Interactive Animations**: Scroll-triggered animations and hover effects using Particles.js.
 
-### Portfolio Sections
+### 📁 Portfolio Sections
 
-1. **Hero Section**
-   - Full-screen introduction with animated particle background
-   - Professional tagline and call-to-action buttons
-   - Social media links (LinkedIn, GitHub, Email)
-   - Animated scroll indicator
+#### 1. Hero Section
+- Full-screen introduction with a professional tagline and call-to-action buttons.
+- Animated scroll indicator and integrated social media links.
 
-2. **About Me**
-   - Professional summary with key highlights
-   - Interactive statistics (records processed, years of experience, skills)
-   - Contact information display
-   - Professional avatar placeholder
+#### 2. About Me
+- Professional summary with key highlights.
+- **Interactive Statistics**: Real-time counters for records processed (1000+) and years of experience.
+- **Visual Verification**: 
+  ![Vishwajeet Profile](assets/media/profile-verified.png)
 
-3. **Skills**
-   - Categorized skill display (5 categories)
-   - Interactive progress bars with animation on scroll
-   - Icon-based visual representation
-   - Categories include:
-     - Web Development & Programming
-     - Data & Analytics
-     - AI & Automation
-     - Creative & Multimedia
-     - Soft Skills
+#### 3. Technical Skills
+Categorized skill display with interactive progress bars:
+- **Web Dev**: HTML5, CSS3, JavaScript, MySQL.
+- **Data**: Python, Excel, Salesforce, Data Visualization.
+- **AI**: ChatGPT API, Python Automation, Prompt Engineering.
 
-4. **Experience**
-   - Interactive timeline layout
-   - 5 professional positions with detailed achievements
-   - Hover effects on timeline items
-   - Technology tags for each role
-   - Visual timeline with gradient connector
+#### 4. Featured Projects
+Includes my latest work in AI and Data automation:
+- **AI-Powered Instagram Caption Generator**: 
+  Integrated directly into an SMM panel using Gemini API and Replit backend.
+  ![SMM Panel Tool](assets/media/smm-panel-preview.png)
+- **Data Analytics Dashboard**: Python-based visualization for complex datasets.
+- **Multimedia Campaigns**: Creative design for social media growth.
 
-5. **Projects**
-   - 6 featured projects in card layout
-   - Hover overlays with project links
-   - Technology stack badges
-   - Impact metrics for each project
-   - Links to live demos and GitHub repositories
-
-![Projects Preview](assets/screenshots/project-preview.png)
-
-6. **Education & Certifications**
-   - Split grid layout for education and certifications
-   - Animated cards with icons
-   - Detailed descriptions of degrees and certificates
-   - Institution and duration information
-
-7. **Contact**
-   - Interactive contact form with validation
-   - Contact information cards
-   - Social media links
-   - Form success message animation
-   - Direct links for phone, email, and LinkedIn
-
-8. **Footer**
-   - Quick navigation links
-   - Social media connections
-   - Copyright information
-   - Professional branding
-
-### Interactive Features & Demos
-
-- **Smooth Scroll Navigation**: Click any navigation link for smooth scrolling
-- **Active Nav Link Indicator**: Highlights current section in navigation
-- **Skill Bar Animations**: Progress bars animate when scrolled into view
-- **Form Validation**: Real-time validation for contact form
-- **Theme Persistence**: Remembers user's theme preference
-
-![Interactive Demo](assets/screenshots/demo.gif)
+---
 
 ## 🛠️ Technologies Used
 
-### Frontend
-- **HTML5**: Semantic markup structure
-- **CSS3**: Modern styling with CSS Grid and Flexbox
-- **JavaScript (ES6+)**: Interactive functionality and animations
+| Category | Tools/Technologies |
+| :--- | :--- |
+| **Frontend** | HTML5, CSS3, JavaScript (ES6+) |
+| **Libraries** | Particles.js, Font Awesome, Google Fonts |
+| **Data/AI** | Python, Google Gemini API, Salesforce |
+| **Development** | Replit, GitHub, VS Code |
 
-### Libraries & Frameworks
-- **Font Awesome 6.4.0**: Icon library
-- **Google Fonts**: Poppins & Inter font families
-- **Chart.js**: Data visualization capability
-- **Particles.js 2.0.0**: Animated particle background
+---
 
-### Design Principles
-- **Mobile-First Approach**: Responsive design starting from mobile
-- **Accessibility**: ARIA labels and semantic HTML
-- **Performance Optimization**: Lazy loading
+## 📁 Project Structure
+
+```text
+portfolio/
+├── index.html              # Main HTML structure
+├── css/
+│   └── style.css           # Custom styling & Dark/Light mode
+├── js/
+│   └── main.js             # Interactions & Scroll animations
+├── assets/
+│   └── media/              # Screenshots and Demo videos
+└── README.md               # Project documentation
